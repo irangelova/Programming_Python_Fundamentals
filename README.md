@@ -8,6 +8,7 @@ Repository containing my work during the fundamentals course in Python from Soft
 
 - [x] Basic Syntax
 - [x] Data Types and Variables
+- [x] Pattern drawings
 - [ ] Lists Basic
 - [ ] Functions
 - [ ] List Advanced
