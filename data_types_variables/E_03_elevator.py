@@ -1,0 +1,12 @@
+from math import ceil
+
+number_people = int(input())
+capacity = int(input())
+
+#courses = (number_people // capacity)
+#if number_people % capacity != 0:
+#    courses += 1
+
+courses = ceil(number_people / capacity)
+
+print(courses)
