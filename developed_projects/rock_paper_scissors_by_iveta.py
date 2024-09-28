@@ -1,4 +1,6 @@
 import random
+from colorama import Fore
+
 
 rock = "Rock"
 paper = "Paper"
@@ -8,15 +10,13 @@ player_move = ""
 player_wins = computer_wins = draw_rounds = 0
 
 while True:
-    player_move = input("Choose [r]ock, [p]aper, [s]cissors or [e]nd: ")
+    player_move = input("Choose [r]ock, [p]aper or [s]cissors: ")
     if player_move == "r":
         player_move = rock
     elif player_move == "p":
         player_move = paper
     elif player_move == "s":
         player_move = scissors
-    elif player_move == "e":
-        break
     else:
         raise SystemExit("Invalid Input. Try again...")
 
@@ -36,13 +36,21 @@ while True:
             or (player_move == paper and computer_move == rock) \
             or (player_move == scissors and computer_move == paper):
         player_wins += 1
-        print("You win!")
+        print(Fore.GREEN + "You win!")
     elif player_move == computer_move:
         draw_rounds += 1
-        print("Draw!")
+        print(Fore.YELLOW + "Draw!")
     else:
         computer_wins += 1
-        print("You lose!")
+        print(Fore.RED + "You lose!")
+
+    ask_for_new_game = input(Fore.WHITE + "Do you want to start another game? Type [yes] or [no]? ")
+    if ask_for_new_game == "Y":
+        continue
+    elif ask_for_new_game == "N":
+        break
+    else:
+        raise SystemExit("Invalid Input. Try again...")
 
 print(f"You won {player_wins} rounds.")
 print(f"Computer won {computer_wins} rounds.")
