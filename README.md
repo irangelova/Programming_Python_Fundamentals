@@ -18,4 +18,6 @@ Repository containing my work during the fundamentals course in Python from Soft
 - [ ] Regular Expressions
 - [ ] Basic Web Project
 
-## **Developed projects during the course**
+## **Developed projects during the course** 📖
+
+- Game of rock🪨, paper📄, scissors✂️ where a player plays against the computer. Player inputs their choice (rock, paper or scissors) and computer makes a random choice afterwards. After each round the result (win, loss or draw) is evaluated and printed.
