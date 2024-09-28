@@ -1,7 +1,6 @@
 import random
 from colorama import Fore
 
-
 rock = "Rock"
 paper = "Paper"
 scissors = "Scissors"
@@ -45,9 +44,9 @@ while True:
         print(Fore.RED + "You lose!")
 
     ask_for_new_game = input(Fore.WHITE + "Do you want to start another game? Type [yes] or [no]? ")
-    if ask_for_new_game == "Y":
+    if ask_for_new_game == "yes":
         continue
-    elif ask_for_new_game == "N":
+    elif ask_for_new_game == "no":
         break
     else:
         raise SystemExit("Invalid Input. Try again...")
