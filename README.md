@@ -4,7 +4,7 @@ Repository containing my work during the fundamentals course in Python from Soft
 
 🔗 [Link to Python Fundamentals course](https://softuni.bg/trainings/4693/programming-fundamentals-with-python-september-2024)
 
-## **Table of Contents**
+## **Table of Contents** 📑
 
 - [x] Basic Syntax
 - [x] Data Types and Variables
@@ -18,7 +18,7 @@ Repository containing my work during the fundamentals course in Python from Soft
 - [ ] Regular Expressions
 - [ ] Basic Web Project
 
-## **Developed projects during the course** 📖
+## **Developed projects during the course** 📈
 
 ### 1. Game of rock🪨, paper📄, scissors✂️
 
