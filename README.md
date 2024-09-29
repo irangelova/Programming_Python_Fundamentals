@@ -20,7 +20,7 @@ Repository containing my work during the fundamentals course in Python from Soft
 
 ## **Developed projects during the course** 📖
 
-### Game of rock🪨, paper📄, scissors✂️
+### 1. Game of rock🪨, paper📄, scissors✂️
 
 🚀 The goal of the project was to develop a two-player game of rock, paper, schissors where a player plays against the computer. Each player choose simultaneously one of three possible options - rock, paper or scissors. The outcome of the game is then defined according to following rules:
 - Paper beats rock (the paper covers the rock)
