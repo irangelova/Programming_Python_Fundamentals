@@ -2,7 +2,6 @@ gift_names = input().split()
 #print(gift_names)
 #command = input().split()
 #print(command)
-cleaned_gift_list = final_gift_list = []
 index = 0
 
 while True:
@@ -24,6 +23,4 @@ while True:
 
 for final_gift in gift_names:
     if final_gift != "None":
-        cleaned_gift_list.append(final_gift)
-    final_gift_list = " ".join(cleaned_gift_list)
-print(final_gift_list)
+        print(final_gift, end=" ")
