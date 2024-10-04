@@ -18,7 +18,7 @@ for fire in range(len(fires_with_cells)):
             total_fire += cell_value
             cells_put_out.append(cell_value)
     elif fire_type == "Medium":
-        if 50 <= cell_value <= 80:
+        if 51 <= cell_value <= 80:
             if water < cell_value:
                 break
             water -= cell_value
