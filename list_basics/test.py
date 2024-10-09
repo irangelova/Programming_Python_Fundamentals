@@ -1,3 +1,4 @@
-command_string = input().split()
-command = command_string[0]
-print(command)
+number_sequence = input().split()
+input_string = input()
+string_list = list(input_string)
+print(string_list)
