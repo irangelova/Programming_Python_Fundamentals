@@ -1,4 +1,4 @@
-def find_smallest(number1, number2, number3):
+def find_smallest(number1: int, number2: int, number3: int) -> int:
     numbers_to_check = [number1, number2, number3]
     smallest_number = min(numbers_to_check)
     return smallest_number

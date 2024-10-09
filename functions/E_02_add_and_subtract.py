@@ -1,4 +1,4 @@
-def sum_numbers(number1, number2):
+def sum_numbers(number1: int, number2: int) -> int:
     sum_of_numbers = number1 + number2
     return sum_of_numbers
 
