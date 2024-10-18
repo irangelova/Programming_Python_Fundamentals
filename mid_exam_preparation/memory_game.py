@@ -14,7 +14,7 @@ while True:
     first_index = int(command[0])
     second_index = int(command[1])
 
-    if first_index == second_index or not 0 <= first_index <= len(elements) or not 0 <= second_index <= len(elements):
+    if first_index == second_index or not 0 <= first_index <= len(elements) - 1 or not 0 <= second_index <= len(elements) - 1:
         middle_of_elements = len(elements) // 2
         elements.insert(middle_of_elements, f"-{moves}a")
         elements.insert(middle_of_elements, f"-{moves}a")
