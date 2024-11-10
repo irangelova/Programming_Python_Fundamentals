@@ -1,6 +1,6 @@
 def check_ticket(ticket: str) -> str:
     if len(ticket) != 20:
-        return("invalid ticket")
+        return "invalid ticket"
 
     winning_symbols = ["@", "#", "$", "^"]
     first_half = ticket[:10]
@@ -17,7 +17,7 @@ def check_ticket(ticket: str) -> str:
 
 
 all_tickets = input().split(", ")
-for ticket in all_tickets:
-    ticket_to_check = ticket.strip()
+for current_ticket in all_tickets:
+    ticket_to_check = current_ticket.strip()
     result = check_ticket(ticket_to_check)
     print(result)
