@@ -12,8 +12,8 @@ Repository containing my work during the fundamentals course in Python from Soft
 - [x] Lists Basic
 - [x] Functions
 - [x] List Advanced
-- [ ] Objects and Classes
-- [ ] Dictionaries
+- [x] Objects and Classes
+- [x] Dictionaries
 - [ ] Text Processing
 - [ ] Regular Expressions
 - [ ] Basic Web Project
