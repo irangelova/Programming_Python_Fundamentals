@@ -16,5 +16,4 @@ Repository containing my work during the fundamentals course in Python from Soft
 - [x] Dictionaries
 - [x] Text Processing
 - [x] Regular Expressions
-- [ ] Basic Web Project
 
